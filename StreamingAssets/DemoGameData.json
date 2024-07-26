@@ -1,0 +1,79 @@
+﻿{
+  "scoresData": {
+    "scoresNames": [
+      "Имя 1",
+      "Имя 2",
+      "Имя 3",
+      "Имя 4"
+    ],
+    "startScore": 2,
+    "maxScore": 5
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "location": "locationName",
+      "isShuffle": false,
+      "speaker": "Джери",
+      "text": "Текст диалога",
+      "variants": [
+        {
+          "id": 0,
+          "text": "Вариант ответа 1",
+          "to": 1,
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "id": 0,
+          "text": "Вариант ответа 2",
+          "to": 1,
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "location": "locationName",
+      "isShuffle": false,
+      "speaker": "Джери",
+      "text": "Текст диалога 2",
+      "variants": [
+        {
+          "id": 0,
+          "text": "Вариант ответа",
+          "to": -1,
+          "conditions": [],
+          "actions": [
+            {
+              "name": "EndGame"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "locationName",
+      "backgroundImage": "Back.jpg",
+      "characters": [
+        {
+          "name": "key",
+          "placement": {
+            "x": 1.3,
+            "y": 2.0
+          }
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Джери",
+      "imageSpeaker": "Jery.png",
+      "imageLocation": "Jery.png"
+    }
+  ]
+}
