@@ -57,23 +57,19 @@
   "locations": [
     {
       "name": "locationName",
-      "backgroundImage": "Back.jpg",
-      "characters": [
-        {
-          "name": "key",
-          "placement": {
-            "x": 1.3,
-            "y": 2.0
-          }
-        }
-      ]
+      "backgroundImage": "Back.jpg"
     }
   ],
   "characters": [
     {
       "name": "Джери",
-      "imageSpeaker": "Jery.png",
-      "imageLocation": "Jery.png"
+      "imageSpeaker": "Jery.png"
+    }
+  ],
+  "items": [
+    {
+      "name": "name",
+      "image": ""
     }
   ]
 }
